@@ -1,0 +1,57 @@
+{
+  "about": "I am a Computer Science student at the University of Warwick, passionate about software engineering, AI, and databases. I enjoy building software projects and have a strong interest in AI, web development, and databases. My goal is to gain experience through internships and contribute to impactful software solutions.",
+  "experience": [
+    {
+      "role": "Intern",
+      "company": "NAR Sistem Teknoloji",
+      "date": "Jul 2025 – Aug 2025",
+      "details": "Summer internship focusing on Artificial Intelligence and building projects."
+    },
+    {
+      "role": "Head of Social Executives",
+      "company": "Warwick Turkish Society",
+      "date": "Feb 2025 – Present",
+      "details": "Elected through a society-wide vote. Leading the social team and overseeing the event calendar, ensuring smooth planning and execution of events across terms."
+    },
+    {
+      "role": "Social Executive",
+      "company": "Warwick Turkish Society",
+      "date": "Feb 2024 – Feb 2025",
+      "details": "Organised high-capacity events, such as dinners for 100+ attendees and themed parties for 250+ participants. Conducted 1:1 meetings with new international students to support their transition."
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Warwick",
+      "degree": "B.Sc. Computer Science (2023-2026)",
+      "details": "Studying software engineering, databases, AI, and algorithms. Building strong foundations in Java, Python, SQL, and full-stack development."
+    },
+    {
+      "school": "TED Ankara College",
+      "degree": "High School Diploma (2019-2023)",
+      "details": "International Baccalaureate Diploma Programme. Cumulative GPA: 90.999 / 100, IBDP Score: 33 / 45, High Level Subjects: Mathematics AA, Physics, English B."
+    },
+    {
+      "school": "New Brunswick High School",
+      "degree": "Canadian High School Diploma (2019-2023)",
+      "details": "Completed Canadian high school curriculum in parallel with TED Ankara College studies, earning a dual diploma."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "link": "https://github.com/adarpalaoglu/portfolio",
+      "description": "A personal website showcasing my projects and experience."
+    },
+    {
+      "name": "Example Project 2",
+      "link": "https://github.com/adarpalaoglu/example-project-2",
+      "description": "Description for example project 2."
+    }
+  ],
+  "contact": {
+    "email": "palaogluadar@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/adar-palao%C4%9Flu-3455a0307/",
+    "github": "https://github.com/adarpalaoglu"
+  }
+}

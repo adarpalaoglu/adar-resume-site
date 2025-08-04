@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CV Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+        #game-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #3A7AFE;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            z-index: 1001;
+            cursor: pointer;
+        }
+        .popup {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 2px solid #3A7AFE;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+            font-family: Arial, sans-serif;
+            color: #333;
+            pointer-events: none; /* Allow clicks to pass through to the game */
+        }
+        .popup h3 {
+            color: #3A7AFE;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .popup p {
+            margin: 0;
+        }
+        .popup .close-button {
+            align-self: flex-end;
+            background-color: #3A7AFE;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            pointer-events: auto; /* Re-enable clicks for the button */
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-button">Back to Portfolio</a>
+    <div id="game-container"></div>
+
+    <script src="game.js"></script>
+</body>
+</html>
